@@ -77,7 +77,6 @@ for ($i = 1; $i <= 9; $i++) {
 }*/
 
 
-
 //echo 5 % 2;//остаток при делении
 //echo abs(-22); //показывает положительное число
 //echo ceil(3.1534534543) . "<br>"; //округление числа к большему
@@ -292,3 +291,20 @@ echo $x;*/
 click();
 click();
 click();*/
+
+//......................................COOKIES................................................
+//$cookie_name = "user";
+//$cookie_value = "cookie user";
+//setcookie($cookie_name, $cookie_value, 86400);//86400 24hours in sec
+//
+//if (!isset($COOKIE[$cookie_name])) {//isset - ф-ция проверяет на наличие переменной
+//    echo "cookie name $cookie_name";
+//    echo "cookie value $cookie_value";
+//}
+
+//setcookie($cookie_name, $cookie_value, -3600);//отрицательное значение времени = удаление куки
+
+//$counter = isset($_COOKIE['counter']) ? $_COOKIE['counter'] : 0;//проверяем существует ли куки с названием counter
+//$counter++;
+//setcookie("counter",$counter);
+//echo $counter;
