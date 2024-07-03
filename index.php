@@ -256,3 +256,75 @@ echo strftime("%B %Y года, %d число. %A, %H:%M");*/
 //$time = strtotime("-1 day");//текстовое представление даты на один день раньше
 //$yest = date("Y-m-d", $time);
 //echo $yest;
+/*....................................OOP....Classes...Objects.......................
+///*class ShoppingCard {//обьявление класса
+
+}
+
+$product1 = new ShoppingCard();
+$product2 = new ShoppingCard();
+$product3 = new ShoppingCard();
+
+var_dump($product3);//Функция отображает структурированную информацию об одном или нескольких выражениях
+var_dump($product2 instanceof ShoppingCard);//оператор проверяет является ли данный обьект экзмепляром класса//true или false
+var_dump($product1);//*/
+
+/*class Shop
+{
+    //Public -СПЕЦИФИКАТОР ДОСТУПА, все свойства и методы обьекта могут быть использованы во всем скрипте
+    //Privat -  СПЕЦИФИКАТОР ДОСТУПА, свойства или метод обьекта модет быть использован только внутри методов этого класса
+    //Protected - СПЕЦИФИКАТОР ДОСТУПА,свойства и методы испол внутри класса и внутри дочернего класса
+Private $name;
+    public function naming()
+    {
+        $this->name = "Adidas";// $this - ключевое слово
+        echo $this->name;
+    }
+}
+$product = new Shop();
+$product->naming();
+*/
+//......................................OOP..Class-Properties....Property-Scope.....................
+//....................................
+//class User {
+//    public $name = "Имя";//...обьявление свойств класса с их данными
+//    public $password = "Пароль";
+//    public $email = "Емейл";
+//    public $city = "Город";
+//}
+//
+//$admin = new User();
+//$user1 = new User();
+//
+//$admin->name = "Alexey";//Названия свойств пишутся без знака $(->name)
+//$user1->name = "Andrey";
+//
+//echo $admin->name;
+//echo $user1->name;
+//
+//$user1->surname = "Ivanov";
+//echo $user1->surname;
+
+//......................................OOP...Methods-Classes......Function....................
+//перед началом метода ,указать его спецификатор
+
+//class User {
+//    public $name = "Имя";//...обьявление свойств класса с их данными
+//    public $password = "Пароль";
+//    public $email = "Емейл";
+//    public $city = "Город";
+///*
+//    public function Hello() {//обьявление ф-ции со специфик
+//            echo "Hello {$this->name}";
+//    }*/
+//
+//    function getInfo() {//если метод без спецификатора ,автобатически public;
+//        return "{$this->name}. {$this->sername}";
+//    }
+//
+//}
+//$admin = new User();
+//$admin->name = "Alexey";
+///*$admin->Hello();*/
+//$admin->sername = "Бойко";
+//echo "Пользователь: {$admin->getInfo()}";
